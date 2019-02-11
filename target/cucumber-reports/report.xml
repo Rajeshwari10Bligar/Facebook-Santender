@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="33.733144">
+<testcase classname="Find elements using ID" name="Find the Facebook page" time="6.76886">
+<system-out><![CDATA[Given Test Facebook page....................................................passed
+When I access Facebook page.................................................passed
+Then It dispalys the Facebook home page elements............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Santender web page" name="open santender web page" time="26.964284">
+<system-out><![CDATA[Given Test santender home page..............................................passed
+When when i access the santender home page..................................passed
+Then Displays the  santender home page web elements.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

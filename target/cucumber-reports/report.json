@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3327362873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeMethod()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Find the Facebook page",
+        "description": "",
+        "id": "find-elements-using-id;find-the-facebook-page",
+        "after": [
+          {
+            "result": {
+              "duration": 701597369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97154354,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Test Facebook page",
+            "match": {
+              "location": "TestStepDef.step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2193630674,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access Facebook page",
+            "match": {
+              "location": "TestStepDef.step1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71051651,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#  // And I see the email id"
+              }
+            ],
+            "line": 7,
+            "name": "It dispalys the Facebook home page elements",
+            "match": {
+              "location": "TestStepDef.step2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Find elements using ID",
+    "description": "",
+    "id": "find-elements-using-id",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2320266440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeMethod()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "open santender web page",
+        "description": "",
+        "id": "santender-web-page;open-santender-web-page",
+        "after": [
+          {
+            "result": {
+              "duration": 687285176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19206203,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Test santender home page",
+            "match": {
+              "location": "WebDdriverStepDef.test_Santender_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23870494051,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when i access the santender home page",
+            "match": {
+              "location": "WebDdriverStepDef.when_I_Access_The_Santender_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93249,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Displays the  santender home page web elements",
+            "match": {
+              "location": "WebDdriverStepDef.displays_The_Santender_Home_Page_Web_Elements()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Santender web page",
+    "description": "",
+    "id": "santender-web-page",
+    "keyword": "Feature",
+    "uri": "test1.feature"
+  }
+]
